@@ -1,0 +1,26 @@
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container .error {
+  color: #e53e3e;
+  font-size: 0.875rem;
+  text-align: center;
+  margin-top: 0.5rem;
+}
