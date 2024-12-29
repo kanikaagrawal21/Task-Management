@@ -4,7 +4,7 @@ const {
   createTask,
   updateTask,
   deleteTask,
-  getDashboardStats,
+  getAllTasksForDashboard
 } = require("../controllers/taskController");
 const authMiddleware = require("../middleware/authMiddleware");
 
@@ -17,6 +17,6 @@ router.put("/:id", authMiddleware, updateTask);
 router.delete("/:id", authMiddleware, deleteTask);
 
 // Dashboard route
-router.get("/dashboard", authMiddleware, getDashboardStats);
+router.get("/dashboard", authMiddleware, getAllTasksForDashboard);
 
 module.exports = router;

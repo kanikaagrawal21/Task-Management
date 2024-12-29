@@ -104,23 +104,13 @@ exports.deleteTask = async (req, res, next) => {
 };
 
 // Get dashboard statistics
-exports.getDashboardStats = async (req, res, next) => {
+exports.getAllTasksForDashboard = async (req, res) => {
   try {
-    const userId = req.user._id;
-
-    const totalTasks = await Task.countDocuments({ user: userId });
-    const completedTasks = await Task.countDocuments({
-      user: userId,
-      status: "Finished",
-    });
-    const pendingTasks = totalTasks - completedTasks;
-
-    res.status(200).json({
-      totalTasks,
-      completedTasks,
-      pendingTasks,
-    });
+    const tasks = await Task.find({ user: req.user._id }); // Fetch all tasks for the user
+    res.json(tasks); // Return all tasks without pagination
   } catch (error) {
-    res.status(400).json({ message: error.message });
+    res.status(500).json({ message: "Error fetching tasks for dashboard", error: error.message });
   }
 };
+
+
