@@ -25,13 +25,16 @@ Built with Node.js and Express, deployed on Render:
 ## Screenshots
 
 ### Dashboard
-![image](https://github.com/user-attachments/assets/0755b441-237e-4462-badf-499f46641ad5)
+![Screenshot 2025-01-01 131651](https://github.com/user-attachments/assets/d98c3a48-eed1-41fc-8e60-9d8d2f898172)
+
 
 ### Login
-![image](https://github.com/user-attachments/assets/9e271e16-90fa-4d9f-aa3a-2cbb29f0cf08)
+![Screenshot 2025-01-01 131736](https://github.com/user-attachments/assets/e3d01b14-2f6f-4395-bfc4-aee7072992d2)
+
 
 ### Task Lists
-![image](https://github.com/user-attachments/assets/64d39db9-1bd4-4aa9-b9a9-a28c86f95c2e)
+![Screenshot 2025-01-01 131429](https://github.com/user-attachments/assets/a9eebde2-ed52-4ba2-8694-35bf9449cdd3)
+
 
 ### Add Task
-![image](https://github.com/user-attachments/assets/12a5d93c-bce9-483a-9339-5c8ebd778423)
+![Screenshot 2025-01-01 131523](https://github.com/user-attachments/assets/967068af-0834-4630-b86c-c3c1975012c3)
