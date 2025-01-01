@@ -1,6 +1,7 @@
 # Task-Management-App
 
 A Task Management App for creating, updating, deleting, and viewing tasks with statistics like task completion rates and pending task summaries.<br>
+Visit App --> https://comforting-tiramisu-5fd4f7.netlify.app/
 
 ## Frontend: 
 
